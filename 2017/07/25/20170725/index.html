@@ -30,7 +30,79 @@
 
 <body class="loading">
     <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="icon-home image-icon" href="javascript:;"></a>
+    <div title="播放/暂停" class="icon-play"></div>
+    <h3 class="subtitle">【vue2.0】vue-router学习</h3>
+    <div class="social">
+        <!--<div class="like-icon">-->
+            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+        <!--</div>-->
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">【vue2.0】vue-router学习</h1>
+        <div class="stuff">
+            <span>七月 25, 2017</span>
+            
+  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/标签/">标签</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>1.先新建一个vue项目<br>2.安装<br><code>npm install vue-router</code></p>
+<p>3.main.js中添加代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import Vue from &apos;vue&apos;</span><br><span class="line">import VueRouter from &apos;vue-router&apos;</span><br><span class="line">Vue.use(VueRouter)</span><br></pre></td></tr></table></figure></p>
+<p>4.新建routers.js，引入组件home和Hello组件，新建routers对象并配置路由。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2172404-875e862c51161d59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="配置路由.png"></p>
+<p> path 配置了路由的路径，component 配置了映射的组件。</p>
+<p>5.修改main.js<br><img src="http://upload-images.jianshu.io/upload_images/2172404-f4fb518cc8dfc1b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="main.js.png"></p>
+<p>注意：<br>1.添加 mode: ‘history’ 之后将使用 HTML5 history 模式，该模式下没有 # 前缀，而且可以使用 pushState 和 replaceState 来管理记录。<br>2.<br><img src="http://upload-images.jianshu.io/upload_images/2172404-15556d887f10c8cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="router.png"></p>
+<p>这个只能是router，不然报错 [Cannot read property ‘matched’ of undefined]。</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        <li title='0' data-url='http://link.hhtjim.com/163/5146554.mp3'></li>
+                    
+                        <li title='1' data-url='http://link.hhtjim.com/qq/001faIUs4M2zna.mp3'></li>
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+        data-ae='false'
+        data-ci='a396afe529734b15300f'
+        data-cs='0ae7c1790f9a5cbc2b7339c12a82d58fe58f9567'
+        data-r='fechin.github.io'
+        data-o='Fechin'
+        data-a='Fechin'
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
     
+</div>
+
+
+    </div>
+</div>
 </body>
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
